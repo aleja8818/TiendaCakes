@@ -1,0 +1,29 @@
+.banner{
+    background-image: url("../IMG/tor.jpg");
+    padding: 20% 30% 35% 8%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.fuente{
+    font-family: 'Arima', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Mali', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
